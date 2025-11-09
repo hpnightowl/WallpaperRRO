@@ -1,0 +1,13 @@
+/*
+ * Copyright (c) 2025 hpnightowl
+ * SPDX-License-Identifier: All-Rights-Reserved
+ * Use of this source code is governed by a license that can be
+ * found in the LICENSE file in the root of this repository.
+*/
+
+runtime_resource_overlay {
+    name: "WallpaperOverlay",
+    manifest: "AndroidManifest.xml",
+    resource_dirs: ["res"],
+    product_specific: true,
+}
